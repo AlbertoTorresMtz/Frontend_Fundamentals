@@ -1,0 +1,77 @@
+/*selector {
+
+Propiedad:valor
+Propiedad:valor
+Propiedad:valor
+Propiedad:valor
+Propiedad:valor
+Propiedad:valor
+
+}*/
+
+/* Selector tag name*/
+
+h1,h2 ¨{
+
+display: inline;
+
+}
+
+h4{
+
+font-weight: lighter;
+
+}
+
+#parrafo{
+
+    background-color: blueviolet;
+
+}
+
+
+div {
+
+background-color: blue ;
+
+}
+
+
+/*Selector de clase  */
+
+.container{
+
+background-color: blue;
+
+    
+}
+
+
+
+ul *{
+
+font-size: 40px;
+
+}
+
+
+li> ul > * {
+
+font-size: 20px;
+
+}
+
+
+/*Selector universal  */
+
+*{
+
+font-size: 70px;
+
+}
+
+html{
+
+font-size: 50px;
+
+}
