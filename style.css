@@ -105,18 +105,38 @@ font-size: 50px;
  
 */
 
+
+
+/*--------------------------------------------
+Barra navegacion
+*/
+
+:root {
+
+--veintepx: 20px;
+--border: 1px solid #bbb;
+
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+align-items: stretch;
+height: 500px;
 
+   
 }
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right: var(--border)
 }
 
 li:last-child {
@@ -146,6 +166,17 @@ li:hover{
     cursor: pointer;
     background-color: blueviolet;
 }
+
+main > section {
+
+    margin: 20px 0 20px 0;
+    
+    }
+
+/*--------------------------------------------
+Termina Barra navegacion
+*/
+
 
 
 /*--------------------------------------------
@@ -190,3 +221,7 @@ Para Funcion JS
 }
 
 --------------------------------------*/
+
+
+
+
