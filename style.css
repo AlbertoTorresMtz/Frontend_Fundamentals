@@ -11,6 +11,7 @@ Propiedad:valor
 
 /* Selector tag name*/
 
+/*
 h1,h2 ¨{
 
 display: inline;
@@ -37,7 +38,7 @@ background-color: blue ;
 }
 
 
-/*Selector de clase  */
+/*Selector de clase  
 
 .container{
 
@@ -62,7 +63,7 @@ font-size: 20px;
 }
 
 
-/*Selector universal  */
+/*Selector universal  
 
 *{
 
@@ -75,3 +76,117 @@ html{
 font-size: 50px;
 
 }
+*/
+
+/*
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+ 
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color:yellowgreen;
+}
+
+.active {
+
+    background-color: #4CAF50;
+}
+
+li:hover{
+
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+
+/*--------------------------------------------
+Para Funcion JS
+*/
+
+/*--------------------------------------------
+  .auto{
+   display: none;
+ }
+
+ #auto{
+	padding: 10px;
+	background: orange;
+	width: 95px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 1px #000;
+	display: inline-block;
+}
+
+#auto:hover{
+	opacity: .8;
+}
+
+#div-mostrar{
+	width: 100%;
+	margin: auto;
+	height: 0px;
+	background: #000;
+	box-shadow: 10px 10px 3px #D8D8D8;
+	transition: height .4s;
+  color:white;
+  text-align: center;
+}
+#auto:hover{
+	opacity: .8;
+}
+#auto:hover + #div-mostrar{
+	height: 100px;
+}
+
+--------------------------------------*/
